@@ -21,3 +21,4 @@ export const HamburgerIcon = styled.div`
     display: block;
   }
 `;
+export const MENU = styled(Flex)``;
