@@ -21,4 +21,9 @@ export const HamburgerIcon = styled.div`
     display: block;
   }
 `;
-export const MENU = styled(Flex)``;
+export const MENU = styled(Flex)`
+ @media screen {
+  
+ }(max-width: ${({ theme }) => theme.screens.lg)}
+
+`;
